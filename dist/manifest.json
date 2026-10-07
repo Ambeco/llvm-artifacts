@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "tag": "llvmorg-24.0.0-git-wasi.2",
+  "files": {
+    "clang.wasm": {
+      "size": 113810887,
+      "sha256": "caa6a7892ec0c4c5086a88e604c01abae00b5385c5bbe6644ea0bbaae6e207c1",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "clang.zip.000",
+          "size": 16777216,
+          "sha256": "a028783520eb4f39c9c681aa31f2b883a744d1f30e55fa01dd6736743065b89b"
+        },
+        {
+          "name": "clang.zip.001",
+          "size": 8629186,
+          "sha256": "04410983c345ff7b7e8227e8069bb579196fbae5c8c4ab2e6c28e363d19d793d"
+        }
+      ]
+    },
+    "lld.wasm": {
+      "size": 67725809,
+      "sha256": "41233773261a87d85244a0454bf298753b0bf6768623842d5840ac1fab3c2e94",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "lld.zip",
+          "size": 14647963,
+          "sha256": "4d9509c955e4a74152e52a5c5993db0c40388bdb85d542416f9011367721c0dc"
+        }
+      ]
+    },
+    "sysroot.zip": {
+      "size": 57722602,
+      "sha256": "b74079645a3daf388fe10a6c1a842f8678526ee77f0d56a422dfc1ffca591ed7",
+      "payloadKind": "raw",
+      "chunks": [
+        {
+          "name": "sysroot.zip.000",
+          "size": 16777216,
+          "sha256": "d0ca2d49562bcc230b03b1f53b77a17bc0f35df4935b0b54e268ee76f1057012"
+        },
+        {
+          "name": "sysroot.zip.001",
+          "size": 16777216,
+          "sha256": "1118638b055692d382a149ce3c38e14f9399767e4f74c136f9f7f01fac8b2fb0"
+        },
+        {
+          "name": "sysroot.zip.002",
+          "size": 16777216,
+          "sha256": "e2ccfa9a1769b93b7b29ee33513c20fe8ee4fe307f7a64b659533eae7a4738b8"
+        },
+        {
+          "name": "sysroot.zip.003",
+          "size": 7390954,
+          "sha256": "9eb15f258fe89c58dc4a98fc06ac7c8ffc8284b1f986c6fbbccf6b427da2ef5d"
+        }
+      ]
+    },
+    "compile-flags.json": {
+      "size": 1505,
+      "sha256": "f54f1cf5c95425f3064cf2a7572d40e1b2dbe0bbdfeda67381e2d5f37af9e62d",
+      "payloadKind": "raw",
+      "chunks": [
+        {
+          "name": "compile-flags.json",
+          "size": 1505,
+          "sha256": "f54f1cf5c95425f3064cf2a7572d40e1b2dbe0bbdfeda67381e2d5f37af9e62d"
+        }
+      ]
+    }
+  }
+}

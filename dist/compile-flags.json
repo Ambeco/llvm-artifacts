@@ -1,0 +1,46 @@
+{
+  "note": "Substitute ${SYSROOT} and ${RESOURCE} with the guest paths the release sysroot/ and resource/lib/clang/<ver> dirs are mounted at. Required on hosts whose preopens cannot readdir.",
+  "clangResourceVersion": "24",
+  "compile": {
+    "wasm32-wasip1": [
+      "--target=wasm32-unknown-wasip1",
+      "--sysroot=${SYSROOT}",
+      "-resource-dir=${RESOURCE}",
+      "-isystem${SYSROOT}/include/wasm32-wasip1/noeh/c++/v1",
+      "-isystem${SYSROOT}/include/c++/v1",
+      "-fno-exceptions"
+    ],
+    "wasm32-wasip1-threads": [
+      "--target=wasm32-unknown-wasip1-threads",
+      "--sysroot=${SYSROOT}",
+      "-resource-dir=${RESOURCE}",
+      "-isystem${SYSROOT}/include/wasm32-wasip1-threads/noeh/c++/v1",
+      "-isystem${SYSROOT}/include/c++/v1",
+      "-fno-exceptions",
+      "-pthread"
+    ]
+  },
+  "link": {
+    "wasm32-wasip1": [
+      "${SYSROOT}/lib/wasm32-wasip1/crt1.o",
+      "-L${SYSROOT}/lib/wasm32-wasip1/noeh",
+      "-L${SYSROOT}/lib/wasm32-wasip1",
+      "-lc++",
+      "-lc++abi",
+      "-lc",
+      "${RESOURCE}/lib/wasm32-unknown-wasip1/libclang_rt.builtins.a"
+    ],
+    "wasm32-wasip1-threads": [
+      "${SYSROOT}/lib/wasm32-wasip1-threads/crt1.o",
+      "-L${SYSROOT}/lib/wasm32-wasip1-threads/noeh",
+      "-L${SYSROOT}/lib/wasm32-wasip1-threads",
+      "--import-memory",
+      "--shared-memory",
+      "--max-memory=2147483648",
+      "-lc++",
+      "-lc++abi",
+      "-lc",
+      "${RESOURCE}/lib/wasm32-unknown-wasip1-threads/libclang_rt.builtins.a"
+    ]
+  }
+}
