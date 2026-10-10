@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "llvmorg-24.0.0-git-wasi.2",
+  "tag": "v24.0.1",
   "files": {
     "clang.wasm": {
       "size": 113810887,
@@ -10,12 +10,12 @@
         {
           "name": "clang.zip.000",
           "size": 16777216,
-          "sha256": "a028783520eb4f39c9c681aa31f2b883a744d1f30e55fa01dd6736743065b89b"
+          "sha256": "94f2c9ccbd48640876868a934bc7ed1b24d723f2bbb43cfc55646e636261c5ac"
         },
         {
           "name": "clang.zip.001",
           "size": 8629186,
-          "sha256": "04410983c345ff7b7e8227e8069bb579196fbae5c8c4ab2e6c28e363d19d793d"
+          "sha256": "8f717b56994c0e8dbf0cfe9eb752e2dd33b8ab240e21d73728322baaa4171c3e"
         }
       ]
     },
@@ -27,7 +27,19 @@
         {
           "name": "lld.zip",
           "size": 14647963,
-          "sha256": "4d9509c955e4a74152e52a5c5993db0c40388bdb85d542416f9011367721c0dc"
+          "sha256": "6bb1bd564d15d241ae05936da7e3a9b040f3192dda9c9fec3792e34d90d8ed34"
+        }
+      ]
+    },
+    "clangd.wasm": {
+      "size": 57267075,
+      "sha256": "e3fbe66891ec0bec5141a691c7ec4f9210c1bc62dcb1df739b1067e485953813",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "clangd.zip",
+          "size": 12824362,
+          "sha256": "a84a1a7312e49928af13868b9ad7df660abea8feadaf4542e29e9d284746acba"
         }
       ]
     },
