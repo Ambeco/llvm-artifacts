@@ -1,84 +1,98 @@
 {
   "format": 1,
-  "tag": "v24.0.1",
+  "tag": "v24.0.2",
   "files": {
     "clang.wasm": {
-      "size": 113810887,
-      "sha256": "caa6a7892ec0c4c5086a88e604c01abae00b5385c5bbe6644ea0bbaae6e207c1",
+      "size": 66303618,
+      "sha256": "e9fe5e32dded0bdd42e3a0666dc9c416fbd0504e4c312801b9db2136fb2af685",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "clang.zip.000",
           "size": 16777216,
-          "sha256": "94f2c9ccbd48640876868a934bc7ed1b24d723f2bbb43cfc55646e636261c5ac"
+          "sha256": "45a8a1d99366d4e4820e74944c793333a37234e29843c7a70e4c32062fcf4884"
         },
         {
           "name": "clang.zip.001",
-          "size": 8629186,
-          "sha256": "8f717b56994c0e8dbf0cfe9eb752e2dd33b8ab240e21d73728322baaa4171c3e"
+          "size": 4059858,
+          "sha256": "dca4b3b49c7ead0ee4c81062b9487a3e52e8cf7e824ad45217c873bf6c480312"
         }
       ]
     },
     "lld.wasm": {
-      "size": 67725809,
-      "sha256": "41233773261a87d85244a0454bf298753b0bf6768623842d5840ac1fab3c2e94",
+      "size": 30228331,
+      "sha256": "7bc839d3ae122b52ef6876325ce9e5d91db68441fba0094c009f8cb2620319aa",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "lld.zip",
-          "size": 14647963,
-          "sha256": "6bb1bd564d15d241ae05936da7e3a9b040f3192dda9c9fec3792e34d90d8ed34"
+          "size": 9985575,
+          "sha256": "dac896a0aea9183ae906bf6208e022bf39ec5d331f8453e875e2a71aec82dec2"
         }
       ]
     },
     "clangd.wasm": {
-      "size": 57267075,
-      "sha256": "e3fbe66891ec0bec5141a691c7ec4f9210c1bc62dcb1df739b1067e485953813",
+      "size": 34471417,
+      "sha256": "1fb98e43f5c54106e73197d0dfac6878aa73755a25099867047ff761e5e7e461",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "clangd.zip",
-          "size": 12824362,
-          "sha256": "a84a1a7312e49928af13868b9ad7df660abea8feadaf4542e29e9d284746acba"
+          "size": 10176690,
+          "sha256": "7d1777078e0e8207ce673f623192b7e05cad60a2a39dda05871c4bf5449cb938"
+        }
+      ]
+    },
+    "lldb-wasm-reactor.wasm": {
+      "size": 59985553,
+      "sha256": "14f3c101b649ad4bb5b9425044b4caa024a7f11ae95ec5f47d82f21a713cfb4b",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "lldb-wasm-reactor.zip.000",
+          "size": 16777216,
+          "sha256": "c696f38d24c7844211f10c6b53a9da0a54d6c03ea5f24467cd497775b7e1041e"
+        },
+        {
+          "name": "lldb-wasm-reactor.zip.001",
+          "size": 2141567,
+          "sha256": "bfdd53772e741ef3ee5e20f304c9f63a47e38c38d6512e8832067fd36ed38e55"
+        }
+      ]
+    },
+    "llvm-ar.wasm": {
+      "size": 4436507,
+      "sha256": "bc7dd7681b0b07a1d80b8e6a173f484742bd62f56379a29442e4bf61d2d14845",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "llvm-ar.zip",
+          "size": 1264718,
+          "sha256": "0b6ada9fe223a29adc8df3d1afd9bd86f4c02aa8c38696f3d198bc6a01eabe18"
         }
       ]
     },
     "sysroot.zip": {
-      "size": 57722602,
-      "sha256": "b74079645a3daf388fe10a6c1a842f8678526ee77f0d56a422dfc1ffca591ed7",
+      "size": 12822679,
+      "sha256": "d8f7f4576f557ffcfd8131f2fa91faf77cdc9f0f4567320b16ad38bae9368d95",
       "payloadKind": "raw",
       "chunks": [
         {
-          "name": "sysroot.zip.000",
-          "size": 16777216,
-          "sha256": "d0ca2d49562bcc230b03b1f53b77a17bc0f35df4935b0b54e268ee76f1057012"
-        },
-        {
-          "name": "sysroot.zip.001",
-          "size": 16777216,
-          "sha256": "1118638b055692d382a149ce3c38e14f9399767e4f74c136f9f7f01fac8b2fb0"
-        },
-        {
-          "name": "sysroot.zip.002",
-          "size": 16777216,
-          "sha256": "e2ccfa9a1769b93b7b29ee33513c20fe8ee4fe307f7a64b659533eae7a4738b8"
-        },
-        {
-          "name": "sysroot.zip.003",
-          "size": 7390954,
-          "sha256": "9eb15f258fe89c58dc4a98fc06ac7c8ffc8284b1f986c6fbbccf6b427da2ef5d"
+          "name": "sysroot.zip",
+          "size": 12822679,
+          "sha256": "d8f7f4576f557ffcfd8131f2fa91faf77cdc9f0f4567320b16ad38bae9368d95"
         }
       ]
     },
     "compile-flags.json": {
-      "size": 1505,
-      "sha256": "f54f1cf5c95425f3064cf2a7572d40e1b2dbe0bbdfeda67381e2d5f37af9e62d",
+      "size": 1713,
+      "sha256": "1307eddc17afb6e72cbbd6e6f75244a68e1f83145e7e03bcd281619ba5878633",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "compile-flags.json",
-          "size": 1505,
-          "sha256": "f54f1cf5c95425f3064cf2a7572d40e1b2dbe0bbdfeda67381e2d5f37af9e62d"
+          "size": 1713,
+          "sha256": "1307eddc17afb6e72cbbd6e6f75244a68e1f83145e7e03bcd281619ba5878633"
         }
       ]
     }
