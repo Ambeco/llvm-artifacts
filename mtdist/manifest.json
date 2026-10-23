@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "tag": "v24.0.3",
+  "files": {
+    "clang.wasm": {
+      "size": 66292471,
+      "sha256": "9543b9c29380a08054cabb463d9dd26d51b0e6593dfda80568e3f6e8374d3942",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "clang.zip.000",
+          "size": 16777216,
+          "sha256": "7be0d43eea0c94c5104dc301fd656e20e3217a5e35f3cf58b5d5449d76c77b10"
+        },
+        {
+          "name": "clang.zip.001",
+          "size": 4063486,
+          "sha256": "3f6e36c0f2e2add14866e8aafd4fbf726df1ceb5cab364788ed71bd726398e06"
+        }
+      ]
+    },
+    "lld.wasm": {
+      "size": 30259981,
+      "sha256": "6da710925b4f08695a5a29c22956d7b314fc901f07c63ae5f7960fe903a2609d",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "lld.zip",
+          "size": 10000644,
+          "sha256": "5e670614845fab5eccc22b3267b593d98aeaea617e69381f26f4df7acc6045ec"
+        }
+      ]
+    },
+    "clangd.wasm": {
+      "size": 34494871,
+      "sha256": "e8cf75ae10403626863d18239dea4a37c893cf33258593c1a0437ad8a093da1a",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "clangd.zip",
+          "size": 10195516,
+          "sha256": "699d8620d1ad4227dd5cce2e090dc8b5917ea0ca5ed2ceba04fbb06695ea85f5"
+        }
+      ]
+    },
+    "lldb-wasm-reactor.wasm": {
+      "size": 59904977,
+      "sha256": "7eecaa4be05fbd327e7c6fb7ba1696e58fde2d710e54a4971e0c9d4eadceb3d5",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "lldb-wasm-reactor.zip.000",
+          "size": 16777216,
+          "sha256": "cb0400dfbdb3dfd526c9c11d8fc56297ce3d4f3edd02f27b25604fcb31eeb1f0"
+        },
+        {
+          "name": "lldb-wasm-reactor.zip.001",
+          "size": 2125775,
+          "sha256": "ff9408da3650f5d9b7bbf6cfbeb5076200603541b882bea92cc677d64f49b20f"
+        }
+      ]
+    },
+    "llvm-ar.wasm": {
+      "size": 4436507,
+      "sha256": "bc7dd7681b0b07a1d80b8e6a173f484742bd62f56379a29442e4bf61d2d14845",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "llvm-ar.zip",
+          "size": 1264718,
+          "sha256": "f5fa733b47f2b9057fd1e7e0ee0c7cfb75eb282d42dd7e2ac30a7a407ce2ccb1"
+        }
+      ]
+    },
+    "sysroot.zip": {
+      "size": 12822679,
+      "sha256": "e84fa625f62f15def52870441485bf403daec13b443693b2077a227126ad8ded",
+      "payloadKind": "raw",
+      "chunks": [
+        {
+          "name": "sysroot.zip",
+          "size": 12822679,
+          "sha256": "e84fa625f62f15def52870441485bf403daec13b443693b2077a227126ad8ded"
+        }
+      ]
+    },
+    "compile-flags.json": {
+      "size": 1713,
+      "sha256": "1307eddc17afb6e72cbbd6e6f75244a68e1f83145e7e03bcd281619ba5878633",
+      "payloadKind": "raw",
+      "chunks": [
+        {
+          "name": "compile-flags.json",
+          "size": 1713,
+          "sha256": "1307eddc17afb6e72cbbd6e6f75244a68e1f83145e7e03bcd281619ba5878633"
+        }
+      ]
+    }
+  }
+}
