@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "v24.0.4",
+  "tag": "v24.0.5",
   "files": {
     "clang.wasm": {
       "size": 66295942,
@@ -10,12 +10,12 @@
         {
           "name": "clang.zip.000",
           "size": 16777216,
-          "sha256": "fcb50a4476c2ef6b03cb75fd97d1c117f8dec88fe529fb10176ce157793837b5"
+          "sha256": "ae0b0b499035b62a79e3555a034981b7abf821fe8cf50e4f0934c06f2450ec2e"
         },
         {
           "name": "clang.zip.001",
           "size": 4065399,
-          "sha256": "f2c2f51a46e818484f1cf48f313d96e85569411d0460c38a4b66f58aa3d8109e"
+          "sha256": "a4ea4049021b9cad272f410e39aacdb337f08fa9e6bd00e656158a59e9a2641d"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "name": "lld.zip",
           "size": 10000644,
-          "sha256": "aa841638a6a7aed92cdd789c729b3573d67f3fed9da7bbf06d9a8e41c90ca3d6"
+          "sha256": "64311a21299d8f5c02258d165c1cf11b1d8b55f0083a26683905359b7216e7ab"
         }
       ]
     },
@@ -39,7 +39,7 @@
         {
           "name": "clangd.zip",
           "size": 10195516,
-          "sha256": "660cf05a576329bcec03e7e3cd8e82c9e8b3db4db8ff6081c55ae94c6cf399a8"
+          "sha256": "c0a12b4b9bc66391f63ddd8764e395b7aea08d2887dd2e4bf493a0ed13986913"
         }
       ]
     },
@@ -51,12 +51,12 @@
         {
           "name": "lldb-wasm-reactor.zip.000",
           "size": 16777216,
-          "sha256": "db0f3a581ad46e7ac1c461a284514cf8d8fa51d08a4fe47b0a152b5e1966d88a"
+          "sha256": "1f3b936fc7c029b10d2eaa36034c7bf315a0f843047d54cd11d6728af4becda4"
         },
         {
           "name": "lldb-wasm-reactor.zip.001",
           "size": 2129986,
-          "sha256": "8b2b639b611c6e0b4a33a3e28f5145f3cb7e10aec1a22e5f19651f93a0fa973c"
+          "sha256": "f6bd1af085d1000466f508b12e35a8533c255155ba8fe17a37c08cb8d9e28734"
         }
       ]
     },
@@ -68,31 +68,223 @@
         {
           "name": "llvm-ar.zip",
           "size": 1264718,
-          "sha256": "a2ae98c5c28c5435775e994f958e6aab0b4e01507b41aa1045506ddf58d602a4"
+          "sha256": "92f890c567dbccf97dcc7e45c72f1687fa938fc268aab4cd6fee54a3f8434b9e"
         }
       ]
     },
     "sysroot.zip": {
-      "size": 12830531,
-      "sha256": "408ec84e4b61d2dad58fc13a5d83fb9a2fbf45ad15e70a5c76b8a032015e32d9",
+      "size": 12822952,
+      "sha256": "dd5db4ba51a12bd6fae5b91990a42501bca7077b76cdd9e77fd33ca997cb160f",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "sysroot.zip",
-          "size": 12830531,
-          "sha256": "408ec84e4b61d2dad58fc13a5d83fb9a2fbf45ad15e70a5c76b8a032015e32d9"
+          "size": 12822952,
+          "sha256": "dd5db4ba51a12bd6fae5b91990a42501bca7077b76cdd9e77fd33ca997cb160f"
+        }
+      ]
+    },
+    "pch-gnupp17.pch": {
+      "size": 15133636,
+      "sha256": "ff6884ba92f3734469fcbd9d1e95209bd45becf4a01e1ef4591a18f5cc4a4eee",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp17.zip",
+          "size": 9098503,
+          "sha256": "d14f47f804679fd95ee65a5d68658e937ee4871c714ac070afdcda0d1bc6a9ec"
+        }
+      ]
+    },
+    "pch-gnupp17-O2.pch": {
+      "size": 15133636,
+      "sha256": "ae5832495c47953ee4fccafa7e732c04dc0d8825b5aafe157350271f3888a6ba",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp17-O2.zip",
+          "size": 9099460,
+          "sha256": "1d356ac3ea7245668b9131b80a409d0f88aac8e85800306e7832c57113009cd1"
+        }
+      ]
+    },
+    "pch-cpp17.pch": {
+      "size": 15132420,
+      "sha256": "5a8431a39f0cd0651c465fda46600c69c5befa6c79ec0cda5363f5ac27153ff2",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp17.zip",
+          "size": 9097977,
+          "sha256": "5a0bd2355e7108256f101f00f4c1e61ea491ccc82dffc3b142b01296ddfafd86"
+        }
+      ]
+    },
+    "pch-cpp17-O2.pch": {
+      "size": 15132420,
+      "sha256": "28188da9da64cddc909da9c4210a4dbd417e960376ed3e84508bc2fc19c40f1f",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp17-O2.zip",
+          "size": 9098486,
+          "sha256": "fde16210ede0837bd4279a352073e0f746939dfc125a42e51e6a554a50799236"
+        }
+      ]
+    },
+    "pch-gnupp20.pch": {
+      "size": 18219100,
+      "sha256": "a4b40ddc8fd4d80b6933e7d535e816b7617f17613071571e01a0f59a0064d3d6",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp20.zip",
+          "size": 10875778,
+          "sha256": "051c1baaaadeb168571943748e35ab7d8b9c579d131d6619f08108dcea8d1bc8"
+        }
+      ]
+    },
+    "pch-gnupp20-O2.pch": {
+      "size": 18219104,
+      "sha256": "26b1f434b28b6163dc2bf32fe9a16f01f1dd826c3a9258f10e5bf894c6c55f9c",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp20-O2.zip",
+          "size": 10875779,
+          "sha256": "1b4fcf6df08411f19e28212f5b5e5b3aacc73eeeaf55aea44ea2f2fd783ef803"
+        }
+      ]
+    },
+    "pch-cpp20.pch": {
+      "size": 18217880,
+      "sha256": "f61906ed792df1e5937eacfa4afbd6a82b060d5a5c9b2ca9c175960c44e7223d",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp20.zip",
+          "size": 10874459,
+          "sha256": "aa5177e4a3518a8d22377b947592b80d18762dc2fe029d1122e9533a6659298e"
+        }
+      ]
+    },
+    "pch-cpp20-O2.pch": {
+      "size": 18217880,
+      "sha256": "895247bc4499b2bb4c769288db0e33cf3e90067cc99e6f42c967afec97000c2b",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp20-O2.zip",
+          "size": 10874188,
+          "sha256": "f72ca203a83261ba2aa7c27290d2c058ca793a65fe7734f81017f771a090697e"
+        }
+      ]
+    },
+    "pch-gnupp17-threads.pch": {
+      "size": 15155760,
+      "sha256": "d9323f9618fedd7f1e30d3acb6ec76e846f68a39dd37e79f644c41cbe159cdec",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp17-threads.zip",
+          "size": 9114031,
+          "sha256": "d7cc424b02d444a62179fa32822b2f8212102f3b744959ea6e4f1f0a45259fd7"
+        }
+      ]
+    },
+    "pch-gnupp17-O2-threads.pch": {
+      "size": 15155760,
+      "sha256": "138e64785669fd5e7ebf452fd1cdace4aca26337efe6a15118e2d5c02f761b23",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp17-O2-threads.zip",
+          "size": 9114335,
+          "sha256": "655e40844df78cfab84985e97f65bbe60c46112ff1b20ee1ce26c724a70c6a28"
+        }
+      ]
+    },
+    "pch-cpp17-threads.pch": {
+      "size": 15154548,
+      "sha256": "612545cd7ef55a600c8621d5b3035155bd311947387cdb4f8478576c3b841cb4",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp17-threads.zip",
+          "size": 9114424,
+          "sha256": "3a779eeacf5d97bef80333639e96730602de91849c8bb5209f7ccec822db0ed3"
+        }
+      ]
+    },
+    "pch-cpp17-O2-threads.pch": {
+      "size": 15154540,
+      "sha256": "f4b94da6fce88af6274b037e59c4e850e4b8afe9fa060c743f9b5baae8a8120b",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp17-O2-threads.zip",
+          "size": 9114736,
+          "sha256": "24a08af93b33d6ef1d71925d70834463f3de5662a04ff3d4b0f3dc0575fb7767"
+        }
+      ]
+    },
+    "pch-gnupp20-threads.pch": {
+      "size": 18241584,
+      "sha256": "6e007306c9c26e8c2a9be0f3d9f89f56edfbb6457a7ef213b474a3ca15cad877",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp20-threads.zip",
+          "size": 10888862,
+          "sha256": "32cbdeeedfaa7142cd824cb39b636214b71cdf17cc30d5bb367a59269115c750"
+        }
+      ]
+    },
+    "pch-gnupp20-O2-threads.pch": {
+      "size": 18241580,
+      "sha256": "61ce177fa1030adaab748fdd921ea0d8bea73823ac2beb6d6023b593a8125136",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-gnupp20-O2-threads.zip",
+          "size": 10888278,
+          "sha256": "224d96c80bff49c7008a51efdf14441fe4ec095b0b8e33fb6345da5a6c3ef366"
+        }
+      ]
+    },
+    "pch-cpp20-threads.pch": {
+      "size": 18240356,
+      "sha256": "4963834608638227f726bff3f1084f5b07b3e4e0ef877358fc23fe39256cdd65",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp20-threads.zip",
+          "size": 10889162,
+          "sha256": "ab3c5dfcef2da860817a325b8e9180ad56391e33570dafd44141b94eef011692"
+        }
+      ]
+    },
+    "pch-cpp20-O2-threads.pch": {
+      "size": 18240352,
+      "sha256": "0846dd40729eec68f4847685aeed7ecf050f3d131c5611e95661ab2c01400333",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "pch-cpp20-O2-threads.zip",
+          "size": 10888951,
+          "sha256": "71876b0410acef12daf22717082b638b072c17698d3aaa6c328e721cceca4393"
         }
       ]
     },
     "compile-flags.json": {
-      "size": 1842,
-      "sha256": "f92cc1291610255716d804f84fcf1114c82a7c1348a30b2a95b7d679b96c665b",
+      "size": 3952,
+      "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "compile-flags.json",
-          "size": 1842,
-          "sha256": "f92cc1291610255716d804f84fcf1114c82a7c1348a30b2a95b7d679b96c665b"
+          "size": 3952,
+          "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89"
         }
       ]
     }

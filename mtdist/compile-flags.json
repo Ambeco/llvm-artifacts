@@ -58,5 +58,97 @@
       "-lc",
       "${RESOURCE}/lib/wasm32-unknown-wasip1-threads/libclang_rt.builtins.a"
     ]
+  },
+  "pch": {
+    "wasm32-wasip1": {
+      "defaultStd": "gnu++17",
+      "variants": [
+        {
+          "file": "pch-gnupp17.pch",
+          "std": "gnu++17",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-gnupp17-O2.pch",
+          "std": "gnu++17",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-cpp17.pch",
+          "std": "c++17",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-cpp17-O2.pch",
+          "std": "c++17",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-gnupp20.pch",
+          "std": "gnu++20",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-gnupp20-O2.pch",
+          "std": "gnu++20",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-cpp20.pch",
+          "std": "c++20",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-cpp20-O2.pch",
+          "std": "c++20",
+          "optimization": "2"
+        }
+      ]
+    },
+    "wasm32-wasip1-threads": {
+      "defaultStd": "gnu++17",
+      "variants": [
+        {
+          "file": "pch-gnupp17-threads.pch",
+          "std": "gnu++17",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-gnupp17-O2-threads.pch",
+          "std": "gnu++17",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-cpp17-threads.pch",
+          "std": "c++17",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-cpp17-O2-threads.pch",
+          "std": "c++17",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-gnupp20-threads.pch",
+          "std": "gnu++20",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-gnupp20-O2-threads.pch",
+          "std": "gnu++20",
+          "optimization": "2"
+        },
+        {
+          "file": "pch-cpp20-threads.pch",
+          "std": "c++20",
+          "optimization": "0"
+        },
+        {
+          "file": "pch-cpp20-O2-threads.pch",
+          "std": "c++20",
+          "optimization": "2"
+        }
+      ]
+    }
   }
 }
