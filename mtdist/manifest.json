@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "v24.0.5",
+  "tag": "v24.0.6",
   "files": {
     "clang.wasm": {
       "size": 66295942,
@@ -10,12 +10,12 @@
         {
           "name": "clang.zip.000",
           "size": 16777216,
-          "sha256": "ae0b0b499035b62a79e3555a034981b7abf821fe8cf50e4f0934c06f2450ec2e"
+          "sha256": "6b0cdb6acc9e2a3d99ea545d37578db2d2d0232703bfbcfd393c78b373a3e315"
         },
         {
           "name": "clang.zip.001",
           "size": 4065399,
-          "sha256": "a4ea4049021b9cad272f410e39aacdb337f08fa9e6bd00e656158a59e9a2641d"
+          "sha256": "f40745b5487167ba9b1c02848751da2cb59a917ea31246392b74d87762ed871f"
         }
       ]
     },
@@ -27,19 +27,19 @@
         {
           "name": "lld.zip",
           "size": 10000644,
-          "sha256": "64311a21299d8f5c02258d165c1cf11b1d8b55f0083a26683905359b7216e7ab"
+          "sha256": "4487fb117fd0158bcf97fcc98e569af5f48966f34d1ab1415b0a19d33bcd36f9"
         }
       ]
     },
     "clangd.wasm": {
-      "size": 34494871,
-      "sha256": "e8cf75ae10403626863d18239dea4a37c893cf33258593c1a0437ad8a093da1a",
+      "size": 34471417,
+      "sha256": "1fb98e43f5c54106e73197d0dfac6878aa73755a25099867047ff761e5e7e461",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "clangd.zip",
-          "size": 10195516,
-          "sha256": "c0a12b4b9bc66391f63ddd8764e395b7aea08d2887dd2e4bf493a0ed13986913"
+          "size": 10176690,
+          "sha256": "762013c866a63913f985fd09fa60ad656963b8c8d74b369f56abb9cdf580769a"
         }
       ]
     },
@@ -51,12 +51,12 @@
         {
           "name": "lldb-wasm-reactor.zip.000",
           "size": 16777216,
-          "sha256": "1f3b936fc7c029b10d2eaa36034c7bf315a0f843047d54cd11d6728af4becda4"
+          "sha256": "63c3db3dd7816504ed01ef5983c43c683443d6aa1f1486b5430033abea2fe4b8"
         },
         {
           "name": "lldb-wasm-reactor.zip.001",
           "size": 2129986,
-          "sha256": "f6bd1af085d1000466f508b12e35a8533c255155ba8fe17a37c08cb8d9e28734"
+          "sha256": "06358a854725352700d0e961ee8a0ade891b2f6a6a99a5c7764a4443db9aea2a"
         }
       ]
     },
@@ -68,19 +68,19 @@
         {
           "name": "llvm-ar.zip",
           "size": 1264718,
-          "sha256": "92f890c567dbccf97dcc7e45c72f1687fa938fc268aab4cd6fee54a3f8434b9e"
+          "sha256": "258aa1ef17f0120e8e889a94790a47daf9f17fa81faeb596a744f7d2218eb098"
         }
       ]
     },
     "sysroot.zip": {
       "size": 12822952,
-      "sha256": "dd5db4ba51a12bd6fae5b91990a42501bca7077b76cdd9e77fd33ca997cb160f",
+      "sha256": "dfe84ffd1be232fa3da9b6f7e68327ce33c6d1a019b798b75d213710a0295d46",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "sysroot.zip",
           "size": 12822952,
-          "sha256": "dd5db4ba51a12bd6fae5b91990a42501bca7077b76cdd9e77fd33ca997cb160f"
+          "sha256": "dfe84ffd1be232fa3da9b6f7e68327ce33c6d1a019b798b75d213710a0295d46"
         }
       ]
     },
@@ -92,7 +92,7 @@
         {
           "name": "pch-gnupp17.zip",
           "size": 9098503,
-          "sha256": "d14f47f804679fd95ee65a5d68658e937ee4871c714ac070afdcda0d1bc6a9ec"
+          "sha256": "4597d0f96c4706fdd5de668393937531805405d230479c34ae662839e31ed4b8"
         }
       ]
     },
@@ -104,7 +104,7 @@
         {
           "name": "pch-gnupp17-O2.zip",
           "size": 9099460,
-          "sha256": "1d356ac3ea7245668b9131b80a409d0f88aac8e85800306e7832c57113009cd1"
+          "sha256": "091488e5d342d223bb01f8e7c31c9b7cba6ead85bd21455b3d3ac920af10238f"
         }
       ]
     },
@@ -116,7 +116,7 @@
         {
           "name": "pch-cpp17.zip",
           "size": 9097977,
-          "sha256": "5a0bd2355e7108256f101f00f4c1e61ea491ccc82dffc3b142b01296ddfafd86"
+          "sha256": "cdabe77a47d940cd7f81df6d2268644bc1c60b0fa39aa81ad575c01405089037"
         }
       ]
     },
@@ -128,7 +128,7 @@
         {
           "name": "pch-cpp17-O2.zip",
           "size": 9098486,
-          "sha256": "fde16210ede0837bd4279a352073e0f746939dfc125a42e51e6a554a50799236"
+          "sha256": "4b68f3816246ea0bd5250892cb13de9268fc8c67d342c6431f00171dbfa1e2a7"
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "name": "pch-gnupp20.zip",
           "size": 10875778,
-          "sha256": "051c1baaaadeb168571943748e35ab7d8b9c579d131d6619f08108dcea8d1bc8"
+          "sha256": "510e2bcd6c63a8493ac3fc752ca83b2949dccda68eab882ad1d0e2322ef753c3"
         }
       ]
     },
@@ -152,7 +152,7 @@
         {
           "name": "pch-gnupp20-O2.zip",
           "size": 10875779,
-          "sha256": "1b4fcf6df08411f19e28212f5b5e5b3aacc73eeeaf55aea44ea2f2fd783ef803"
+          "sha256": "c0df6b7e1da3423df5525b0cf43ee117b9c4c8fd19987d16d7c147dfdc737fc1"
         }
       ]
     },
@@ -164,7 +164,7 @@
         {
           "name": "pch-cpp20.zip",
           "size": 10874459,
-          "sha256": "aa5177e4a3518a8d22377b947592b80d18762dc2fe029d1122e9533a6659298e"
+          "sha256": "0b381b632402a5ee6faf994687b9be09064539bf435ac61697a68f9b2479b773"
         }
       ]
     },
@@ -176,7 +176,7 @@
         {
           "name": "pch-cpp20-O2.zip",
           "size": 10874188,
-          "sha256": "f72ca203a83261ba2aa7c27290d2c058ca793a65fe7734f81017f771a090697e"
+          "sha256": "ebd36924779ca074f883978096f10e5a380924504d9b19dcefaca0f6a352eaba"
         }
       ]
     },
@@ -188,7 +188,7 @@
         {
           "name": "pch-gnupp17-threads.zip",
           "size": 9114031,
-          "sha256": "d7cc424b02d444a62179fa32822b2f8212102f3b744959ea6e4f1f0a45259fd7"
+          "sha256": "ef9189a9ce3be8badbe80fc6ca6eb35b73c6cb2e068632b4b462fb47543d72ea"
         }
       ]
     },
@@ -200,7 +200,7 @@
         {
           "name": "pch-gnupp17-O2-threads.zip",
           "size": 9114335,
-          "sha256": "655e40844df78cfab84985e97f65bbe60c46112ff1b20ee1ce26c724a70c6a28"
+          "sha256": "c5a16a477d691866c483b4fb6ff76f30c885cc2ff8799f5a4355f9f70c0967b0"
         }
       ]
     },
@@ -212,7 +212,7 @@
         {
           "name": "pch-cpp17-threads.zip",
           "size": 9114424,
-          "sha256": "3a779eeacf5d97bef80333639e96730602de91849c8bb5209f7ccec822db0ed3"
+          "sha256": "4e353b6849aeba1a3df4b195372c98339868d17df30f7daaa9e11d5ae21b1f1c"
         }
       ]
     },
@@ -224,7 +224,7 @@
         {
           "name": "pch-cpp17-O2-threads.zip",
           "size": 9114736,
-          "sha256": "24a08af93b33d6ef1d71925d70834463f3de5662a04ff3d4b0f3dc0575fb7767"
+          "sha256": "8dfeb70c5d6fd7db754ff5fd5c57539baabfccbec517837b0a528d089468fd30"
         }
       ]
     },
@@ -236,7 +236,7 @@
         {
           "name": "pch-gnupp20-threads.zip",
           "size": 10888862,
-          "sha256": "32cbdeeedfaa7142cd824cb39b636214b71cdf17cc30d5bb367a59269115c750"
+          "sha256": "74d8e4ba62d8642123bdfae15beca0dfdd7ecfd27e9b41ed3cc1f9bd4a7cb8ce"
         }
       ]
     },
@@ -248,7 +248,7 @@
         {
           "name": "pch-gnupp20-O2-threads.zip",
           "size": 10888278,
-          "sha256": "224d96c80bff49c7008a51efdf14441fe4ec095b0b8e33fb6345da5a6c3ef366"
+          "sha256": "1104dfdabd98e6331559da1382b7dc436eefe347b41f151f7e87dad510e93d8c"
         }
       ]
     },
@@ -260,7 +260,7 @@
         {
           "name": "pch-cpp20-threads.zip",
           "size": 10889162,
-          "sha256": "ab3c5dfcef2da860817a325b8e9180ad56391e33570dafd44141b94eef011692"
+          "sha256": "7ac4eb2382e80bf15aedb1a0d153c81b56a91953777e7ed918439fd27550f71e"
         }
       ]
     },
@@ -272,19 +272,19 @@
         {
           "name": "pch-cpp20-O2-threads.zip",
           "size": 10888951,
-          "sha256": "71876b0410acef12daf22717082b638b072c17698d3aaa6c328e721cceca4393"
+          "sha256": "0d225de71476db3e3267fafd0175a055bb94b72c82451a7e7cb62dd099d3f0c9"
         }
       ]
     },
     "compile-flags.json": {
-      "size": 3952,
-      "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89",
+      "size": 3823,
+      "sha256": "5c8122a7a5ed8e5dd3baca8ebcedc609cfebdff5a813cbb9bf0eeb1525a94ead",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "compile-flags.json",
-          "size": 3952,
-          "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89"
+          "size": 3823,
+          "sha256": "5c8122a7a5ed8e5dd3baca8ebcedc609cfebdff5a813cbb9bf0eeb1525a94ead"
         }
       ]
     }

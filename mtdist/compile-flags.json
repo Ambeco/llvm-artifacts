@@ -1,12 +1,6 @@
 {
   "note": "Substitute ${SYSROOT} and ${RESOURCE} with the guest paths the release sysroot/ and resource/lib/clang/<ver> dirs are mounted at. Required on hosts whose preopens cannot readdir.",
   "clangResourceVersion": "24",
-  "debugCoverage": [
-    "-mllvm",
-    "-sanitizer-coverage-stmt",
-    "-mllvm",
-    "-sanitizer-coverage-spill-debug-vars"
-  ],
   "compile": {
     "wasm32-wasip1": [
       "--target=wasm32-unknown-wasip1",
