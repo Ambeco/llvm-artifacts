@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "v24.0.7",
+  "tag": "v24.0.8",
   "files": {
     "clang.wasm": {
       "size": 66295942,
@@ -10,12 +10,12 @@
         {
           "name": "clang.zip.000",
           "size": 16777216,
-          "sha256": "0b66aab5402ca356abd2db261e84be6bf29933e9d49d8708863cbe8582688283"
+          "sha256": "00090dae291b96461be6a96a1a3a04b1c5193161508b5058eb4d19f52acd7f22"
         },
         {
           "name": "clang.zip.001",
           "size": 4065399,
-          "sha256": "5e90ae32095147798519bf6e6b909bd914125734811a77962bd45e251b06c02d"
+          "sha256": "6515980499795fbc87a6811602e61419840a77dd2cdec01749a11c912b9f3ad3"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "name": "lld.zip",
           "size": 10000644,
-          "sha256": "364c74d7533aa29648c11ab472811ab8661a5ba538c710f889196608649bfea5"
+          "sha256": "b6e0ae14afc262e0f27148a78cce878f00b0f230c5926f9d6ad4b8509ff02214"
         }
       ]
     },
@@ -39,7 +39,7 @@
         {
           "name": "clangd.zip",
           "size": 10195516,
-          "sha256": "06099b414c496c905e119daac92251907784abbd22f93a5b2101b1dcf20f1d27"
+          "sha256": "febd72b291def3ed7c7f13b97bf88285020ecfedffa23163654d356847baa974"
         }
       ]
     },
@@ -51,12 +51,12 @@
         {
           "name": "lldb-wasm-reactor.zip.000",
           "size": 16777216,
-          "sha256": "a7c9acee52ecd3227e4613ee9214bcb2a03ba5c04a8bfd72bf0e6650af5d6a8d"
+          "sha256": "5f0225d5873a78655556bef470ad3bc1d37416a2310dc20009bf05a9e6baf8c0"
         },
         {
           "name": "lldb-wasm-reactor.zip.001",
           "size": 2129986,
-          "sha256": "1078f76492593fd0fb7730acc2bc574c9f4d5c61e6b1d539ca5af98ffcd3650b"
+          "sha256": "b01ace1129e683f48f36dd345b316c829376880e367c6c84297e93c83ece81c2"
         }
       ]
     },
@@ -68,19 +68,19 @@
         {
           "name": "llvm-ar.zip",
           "size": 1264718,
-          "sha256": "1653b7aa12dc892468a268ab9c116f83607ecbc729f175c797fe8b5ad2fcf573"
+          "sha256": "3fcd08c7301f56fcc73e5968bd7ffcdb5d0e31353dd111f21a4398f8f85d8a50"
         }
       ]
     },
     "sysroot.zip": {
       "size": 12822952,
-      "sha256": "01591f50e86b6d4abc742d6e3b69c7190cf0a494d3e82601b4352d3871b09528",
+      "sha256": "d95e5a22b1c5bd2c91e003f864c00f3aa68c669fe9e28ddb2b36c8b799cf3f8b",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "sysroot.zip",
           "size": 12822952,
-          "sha256": "01591f50e86b6d4abc742d6e3b69c7190cf0a494d3e82601b4352d3871b09528"
+          "sha256": "d95e5a22b1c5bd2c91e003f864c00f3aa68c669fe9e28ddb2b36c8b799cf3f8b"
         }
       ]
     },
@@ -92,7 +92,7 @@
         {
           "name": "pch-gnupp17.zip",
           "size": 9098503,
-          "sha256": "6580c3b37cead344115f77d1800f85412699ebe3a0f4cbd153fd23e4d12c4743"
+          "sha256": "326676780deec491d898f6ecdab69a04818078cf76501a353668ce529539e5bd"
         }
       ]
     },
@@ -104,7 +104,7 @@
         {
           "name": "pch-gnupp17-O2.zip",
           "size": 9099460,
-          "sha256": "8fbf29aac74a4cdcd823f7120c0d16c6e17d5f85700e9c315c19c050e9802aa6"
+          "sha256": "06ecfa532f383b8d4e771e09936d67ba7f37865dadaec4c4fe269cd068eaf377"
         }
       ]
     },
@@ -116,7 +116,7 @@
         {
           "name": "pch-cpp17.zip",
           "size": 9097977,
-          "sha256": "c90a36478b31e2a977cb738f15456cc176ffdebb170548bf7815426d2b094506"
+          "sha256": "cd3add1c3bdf96cdc47add3b1ad0a3080dab887fc803c0fe3b3b444d2480e227"
         }
       ]
     },
@@ -128,7 +128,7 @@
         {
           "name": "pch-cpp17-O2.zip",
           "size": 9098486,
-          "sha256": "a350d3f0d7f1b25b4626a30701a1feac95e892eb0e9548d6bbb66d3586f83d96"
+          "sha256": "0f937d0a812735ea96b8dd4df1f4e9ec19f9cd7f0d3feece1613f7833aa9a0d9"
         }
       ]
     },
@@ -140,7 +140,7 @@
         {
           "name": "pch-gnupp20.zip",
           "size": 10875778,
-          "sha256": "e8a6af97e5048550ca6b9569283da5bb6a3e55884bd04c418412ef000e00e4d4"
+          "sha256": "9f71545340b6c08346a7562ec158723eb7fe35a12ddc798facc5dbb940dffe1c"
         }
       ]
     },
@@ -152,7 +152,7 @@
         {
           "name": "pch-gnupp20-O2.zip",
           "size": 10875779,
-          "sha256": "28ef9455fed00ad6f25ceeb908937133b6f2eeae08f8248b4514abe8c89cada4"
+          "sha256": "8b481661b13723f9a12f72fc7c574363829d46bc2a298ab4a033308af53350c9"
         }
       ]
     },
@@ -164,7 +164,7 @@
         {
           "name": "pch-cpp20.zip",
           "size": 10874459,
-          "sha256": "ee0c8d0e34bd56d82fc2705e3a04b05c06de75d02bb1e970943442e477b30d85"
+          "sha256": "153202a3c9c11da3888582e124ba91e11cd1ab9f73138bea39bc9e14ec568869"
         }
       ]
     },
@@ -176,7 +176,7 @@
         {
           "name": "pch-cpp20-O2.zip",
           "size": 10874188,
-          "sha256": "c6002e13402494b4013c1afca5b354d85dfc8b2e2ffdf2cf030b33009e466036"
+          "sha256": "d02ec3c26c30d52c37bbcd7d08a6fd1b88d9c039bb858df979eeed83edf8b48b"
         }
       ]
     },
@@ -188,7 +188,7 @@
         {
           "name": "pch-gnupp17-threads.zip",
           "size": 9114031,
-          "sha256": "2ca1b16a2fd8664132ac8324b725a8c65e318713b559bc0d1c7c0dad5a2bac33"
+          "sha256": "f927082b06fce2560efc472c519b8543e74fbb696f0e1e311af17704cfd5d27a"
         }
       ]
     },
@@ -200,7 +200,7 @@
         {
           "name": "pch-gnupp17-O2-threads.zip",
           "size": 9114335,
-          "sha256": "436542bd69ba5d7b72c1a34831a8dba618ea07498c31175f2ed49baf484f1232"
+          "sha256": "00c453e732745feac832b22935060bfe1e3f95f6a48dcc3856a803a7a0ca0c76"
         }
       ]
     },
@@ -212,7 +212,7 @@
         {
           "name": "pch-cpp17-threads.zip",
           "size": 9114424,
-          "sha256": "ff5a73f6e74d2d237286929b2ea12542ce228b199a3dab00271ad67d42fa35ed"
+          "sha256": "f6585b99c81b322f778b7e39ee67938b22373db9848972ab5ed7a41180a3c58b"
         }
       ]
     },
@@ -224,7 +224,7 @@
         {
           "name": "pch-cpp17-O2-threads.zip",
           "size": 9114736,
-          "sha256": "91cd5efdd46f6f29048e030aa56bcaaeb90373d6334b7548bc7acf52e36a78e5"
+          "sha256": "cc8ae1d0b6872e9684ef327be354129695b12f8646021d9e33a226205c81e055"
         }
       ]
     },
@@ -236,7 +236,7 @@
         {
           "name": "pch-gnupp20-threads.zip",
           "size": 10888862,
-          "sha256": "480c59e9fbe7843f77b01122ff53712a7eefb4e7ed33aac51170b4a9401055c1"
+          "sha256": "fb198e896ea03397a796a02352d9152d747a00530032b2cb12225d3ebf04f792"
         }
       ]
     },
@@ -248,7 +248,7 @@
         {
           "name": "pch-gnupp20-O2-threads.zip",
           "size": 10888278,
-          "sha256": "d7216d76c9c9238c81ecf401abc8786e16e0217a3b9315b3107c014bb348a645"
+          "sha256": "025e2065b868031f01591aaa401c22efba590296734bdfb605f916110e3133a0"
         }
       ]
     },
@@ -260,7 +260,7 @@
         {
           "name": "pch-cpp20-threads.zip",
           "size": 10889162,
-          "sha256": "8527930b2ea7077dc585d19adfd8f569a46716edb674b413cb6c0823f75211ba"
+          "sha256": "35dcea9e6079fae0d0ef03a484c99e176291fe01e698e2f7bc669a0d61bc05af"
         }
       ]
     },
@@ -272,19 +272,19 @@
         {
           "name": "pch-cpp20-O2-threads.zip",
           "size": 10888951,
-          "sha256": "ece91067e5f52234b3b9ba73774a1336bf62c970519828b9b414daa5b90f6b12"
+          "sha256": "f8d0aa472a4fb27240353d2451f05628fac1d220b7c8cac31d5f216a8e97852d"
         }
       ]
     },
     "compile-flags.json": {
-      "size": 3823,
-      "sha256": "5c8122a7a5ed8e5dd3baca8ebcedc609cfebdff5a813cbb9bf0eeb1525a94ead",
+      "size": 3952,
+      "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89",
       "payloadKind": "raw",
       "chunks": [
         {
           "name": "compile-flags.json",
-          "size": 3823,
-          "sha256": "5c8122a7a5ed8e5dd3baca8ebcedc609cfebdff5a813cbb9bf0eeb1525a94ead"
+          "size": 3952,
+          "sha256": "e97c9a7ae80397e9e2e0f445ca90dc525ea4a71642ab31c8cc6f48cca8a77b89"
         }
       ]
     }
