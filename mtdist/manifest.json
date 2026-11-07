@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "v24.0.10",
+  "tag": "v24.0.11",
   "files": {
     "clang.wasm": {
       "size": 98161526,
@@ -32,14 +32,14 @@
       ]
     },
     "clangd.wasm": {
-      "size": 50613758,
-      "sha256": "940e0549c35f5fa5ebfe0d368aad99db12498ed5afcd1225fb67bd2654c70bf2",
+      "size": 62287866,
+      "sha256": "62e215a58e6bfd28bc97fbb0b610c43fa743f84f5306f2b0849b91e2a41d819b",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "clangd.zip",
-          "size": 13889983,
-          "sha256": "98f0635873b04342bdaf6cdd1e4b6c1df380dbe9878e784f34702910eddc919b"
+          "size": 16387094,
+          "sha256": "a342b62893d69eb8a4a2912ff36834e5dd1df0197c8c268298f010f9160f6e06"
         }
       ]
     },
