@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "tag": "v24.0.11",
+  "tag": "v24.0.12",
   "files": {
     "clang.wasm": {
       "size": 98161526,
@@ -61,14 +61,14 @@
       ]
     },
     "llvm-ar.wasm": {
-      "size": 3633431,
-      "sha256": "ff89906ab181f6892c9b3f784e683fe77cf1407d5e06d8bdfc261ee710442706",
+      "size": 5375446,
+      "sha256": "ca2520e32cebf71aab4ea6c49f5316eaf524a26006d729fa7540b52049b81293",
       "payloadKind": "zip",
       "chunks": [
         {
           "name": "llvm-ar.zip",
-          "size": 1204429,
-          "sha256": "854b60630b41e28b7f76535107a77505aea77f9c931d7ee256ec981205ef8f11"
+          "size": 1519891,
+          "sha256": "9d7025236b8ff28a3adae8ec7d2aba7333940aa6e109e61d4ad95a5a6bed8668"
         }
       ]
     },
