@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "tag": "make-4.4.1-1",
+  "files": {
+    "make.wasm": {
+      "size": 271910,
+      "sha256": "d0792918ec34697d06bee23dbf080b9ec089fa544d5ff803c53c4bac33390159",
+      "payloadKind": "zip",
+      "chunks": [
+        {
+          "name": "make.zip",
+          "size": 109274,
+          "sha256": "a1a451caeb22af3bcfbd183d2becd365014cb45f01c60ed85021d6580e642dc2"
+        }
+      ]
+    }
+  }
+}
